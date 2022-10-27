@@ -14,7 +14,7 @@
 （3）点击“发送”，程序数据发送给 LED 屏幕显示文字“温度:xxx,湿度:xxx,二氧化碳:xxx, 噪音:xxx”,其中xxx为APP实时采集的数据；
 （4）点击“停止”，程序停止数据采集，运行状态显示“停止”
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-08-19-19-image.png" title="" alt="" width="201">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/1.png" title="" alt="" width="201">
 
 完成以上任务后请做以下步骤：
 （1）开发完成后，请将程序以“环境监测子系统”命名，发布到
@@ -25,7 +25,7 @@
 
 界面很简单，用线性布局看就是7个横着的块叠在一起：
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-08-47-48-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/2.png" title="" alt="" data-align="center">
 
 在LinearLayout里，再进行文字布局就行。
 这样是为了修改的数据更少，方便我写.java部分而准备的。
@@ -56,7 +56,7 @@
 
 实际上，也可以用如下方式：
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-08-44-13-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/3.png" title="" alt="" data-align="center">
 
 倒数第二行的LinearLayout是为三个Button控件做准备的。其余一律TextView。
 代码我没有写过（以后应该会测试速度，到时候再说）
@@ -79,7 +79,7 @@
 
 把最后的蓝图展示一下：
 
-<img title="" src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-08-58-50-image.png" alt="" data-align="center" width="430">
+<img title="" src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/4.png" alt="" data-align="center" width="430">
 
 代码就自己下载下来自己看吧。
 
@@ -182,9 +182,9 @@ send_bt.setOnClickListener(new View.OnClickListener() {
 
 *如果你是因为看到我让你先来导入jar包而来的，就当我上面那句话没说*
 
-1、当你的工程目录查看方式为Android时候（![](C:\Users\kanyo\AppData\Roaming\marktext\images\2022-10-27-09-00-40-image.png)），找到manifests文件夹（也是个文件，直接双击打开），然后设置网络权限。：
+1、当你的工程目录查看方式为Android时候（![](https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/5.png)），找到manifests文件夹（也是个文件，直接双击打开），然后设置网络权限。：
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-01-41-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/6.png" title="" alt="" data-align="center">
 
 这一步不是导入jar包所必要的条件，但是确实是让jar包可以正常使用的条件。你导入的那几个玩意只要用到串口服务器，都需要这个网络权限。
 
@@ -194,9 +194,9 @@ send_bt.setOnClickListener(new View.OnClickListener() {
 
 
 
-2、将工程目录查看方式设置为Project（![](C:\Users\kanyo\AppData\Roaming\marktext\images\2022-10-27-09-02-07-image.png)），找到app目录下的libs。将资料包内的内容复制在工程中libs目录下：
+2、将工程目录查看方式设置为Project（![](https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/7.png)），找到app目录下的libs。将资料包内的内容复制在工程中libs目录下：
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-03-26-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/8.png" title="" alt="" data-align="center">
 
 3、在app目录下的build.gradle文件中的 *android{  }* 下 加入如下代码：
 
@@ -208,17 +208,17 @@ send_bt.setOnClickListener(new View.OnClickListener() {
     }
 ```
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-07-37-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/9.png" title="" alt="" data-align="center">
 
 4、最后一步，在右上角有一个项目管理器（网上都这么说，但是原意是项目结构？）
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-08-38-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/10.png" title="" alt="" data-align="center">
 
 我是习惯性用快捷键的。
 
 进去之后，如下操作：
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-12-08-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/11.png" title="" alt="" data-align="center">
 
 注意，上面应该少了一个选择导入jar包的步骤，在2~3之间。我就不做演示了，因为很没有必要，太简单了。
 
@@ -226,7 +226,7 @@ send_bt.setOnClickListener(new View.OnClickListener() {
 
 最后结果如下。
 
-<img src="file:///C:/Users/kanyo/AppData/Roaming/marktext/images/2022-10-27-09-12-58-image.png" title="" alt="" data-align="center">
+<img src="https://github.com/Kanyooooo/2023-Jiangsu-Vocational-College-Skills-Competition-Sample-volume-of-secondary-vocational-group/blob/main/photos/12.png" title="" alt="" data-align="center">
 
 
 
@@ -235,6 +235,6 @@ send_bt.setOnClickListener(new View.OnClickListener() {
 ## 最后感言：
 
 写这个玩意是因为在网安摸鱼的时候，他们学习记录的方式都是些writeup（WP），然后我也想写，但是程序怎么写捏？
-
 我思考了一段时间，决定用.md的方式写，然后上传在github上。希望以后的我看到这些依旧会欣慰。
 
+*主要是在学校这样子被看到了也不会被当做是摸鱼，太棒了！！！*
